@@ -16,19 +16,11 @@
     font-display: swap;
 }
 
-/* 腾讯体 */
-@font-face {
-	font-family: "TencentSans";
-	src: url("https://static.tdesign.tencent.com/assets/tencent-w7-CKBjfXer.ttf") format("truetype");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
 
 :root {
 	--font-basic: "InterVariable", "Noto Sans SC-Local", "sans-serif", "PingFang SC", "Noto Sans SC", system-ui, sans-serif;
 	--font-serif: "Noto Serif SC-Local", "Noto Serif SC", serif;
-	--font-creative: "AxelBlogTitle", "XinYiGuanHei", "TencentSans", "InterVariable", "Noto Sans SC", sans-serif;
+	--font-creative: "KuaiKanShiJie", "InterVariable", "Noto Sans SC", sans-serif;
 	--font-stroke-free: "Inter", "Lantinghei SC", "Microsoft YaHei", "MiSans", system-ui, sans-serif;
 	--font-monospace: "JetBrains Mono", "monospace", "Cascadia Code", "Consolas", "Monaco", var(--font-basic), monospace;
 
