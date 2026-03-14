@@ -87,6 +87,23 @@ recommend: true
 
 人生的第一场演唱会就是五月天杭州场（三好黄龙），这是我的第5场五月天演唱会了，第3场「5525」。
 
-[https://blog.axel.xin/2024/11/mayday-5525tour-sh](https://blog.axel.xin/2024/11/mayday-5525tour-sh)[https://blog.axel.xin/2023/11/mayday-tour-shanghai](https://blog.axel.xin/2023/11/mayday-tour-shanghai)
+::link-banner
+---
+banner: https://cdn1.x-lab.top/axelblog/1733584787-maydaysh5525.webp
+title: 「5525回到那一天」五月天上海站｜MAYDAY TOUR IN ShangHai
+description: 又是一年冬天，又一次来到了上海八万人体育场；第一次来到「5525」的现场。
+link: /2024/mayday-5525tour-sh
+---
+::
+
+::link-banner
+---
+banner: https://cdn1.x-lab.top/axelblog/MAYDAY_SH_2-scaled-2.webp
+title: 「好好好想见到你」五月天上海站｜MAYDAY TOUR IN ShangHai
+description: 第一次来到了上海八万人体育场，又一次来到「好好好想见到你」的现场。
+link: /2023/mayday-tour-shanghai
+---
+::
+
 
 下一次留给 **「5525+1」** 或者 **新主题** 吧😁
