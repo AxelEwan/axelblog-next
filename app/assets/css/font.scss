@@ -1,7 +1,25 @@
+/* 引入腾讯体 */
+@font-face {
+	font-family: "TencentSans";
+	src: url("https://static.tdesign.tencent.com/assets/tencent-w7-CKBjfXer.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* 引入欣意冠黑体 (public/fonts/ 目录下) */
+@font-face {
+	font-family: "XinYiGuanHei";
+	src: url("/fonts/XinYiGuanHei.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 :root {
 	--font-basic: "InterVariable", "Noto Sans SC-Local", "sans-serif", "PingFang SC", "Noto Sans SC", system-ui, sans-serif;
 	--font-serif: "Noto Serif SC-Local", "Noto Serif SC", serif;
-	--font-creative: "InterVariable", "Noto Sans SC-Local", "Noto Sans SC", system-ui, sans-serif;
+	--font-creative: "TencentSans", "XinYiGuanHei", "InterVariable", "Noto Sans SC", sans-serif;
 	--font-stroke-free: "Inter", "Lantinghei SC", "Microsoft YaHei", "MiSans", system-ui, sans-serif;
 	--font-monospace: "JetBrains Mono", "monospace", "Cascadia Code", "Consolas", "Monaco", var(--font-basic), monospace;
 
@@ -9,6 +27,7 @@
 		--font-basic: "InterVariable", system-ui, sans-serif;
 	}
 }
+
 
 /* autoprefixer: ignore next */
 // 仅在 Chrome 130+ 启用本地可变字体
