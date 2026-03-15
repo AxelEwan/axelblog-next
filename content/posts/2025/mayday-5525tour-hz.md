@@ -58,6 +58,8 @@ recommend: true
 
 离五位大爷最近的一次！堪比内场！（355的穷小伙能近距离😭）
 
+<video src="https://i1.541111.xyz/2025/maydayhz1.mp4" width="100%" height="auto" controls></video>
+
 ![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_18.webp)
 
 ![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_17.webp)
