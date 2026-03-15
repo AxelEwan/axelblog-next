@@ -70,6 +70,8 @@ caption: 感觉近了好多
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_7.webp
 alt: 有些事现在不做一辈子都不会做了+约翰蓝侬
 ---
+::
+
 
 ### 成名在望
 
@@ -80,18 +82,21 @@ alt: 有些事现在不做一辈子都不会做了+约翰蓝侬
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_8.webp
 alt: 成名在望舞美
 ---
+::
 
 ::pic
 ---
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_9.webp
 alt: 成名在望舞美
 ---
+::
 
 ::pic
 ---
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_10.webp
 alt: 成名在望舞美
 ---
+::
 
 ### 🚌 派对动物+离开地球表面
 
@@ -101,32 +106,37 @@ src: https://cdn1.x-lab.top/axelblog/mayday5525hz_11.webp
 alt: 派对动物+离开地球表面
 caption: 离五位大爷最近的一次！堪比内场！（355的穷小伙能近距离😭）
 ---
+::
 
-&lt;video src="https://i1.541111.xyz/2025/maydayhz1.mp4" width="100%" height="auto" controls&gt;&lt;/video&gt;
+<video src="https://i1.541111.xyz/2025/maydayhz1.mp4" width="100%" height="auto" controls></video>
 
 ::pic
 ---
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_18.webp
 alt: 近距离拍摄
 ---
+::
 
 ::pic
 ---
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_17.webp
 alt: 近距离拍摄
 ---
+::
 
 ::pic
 ---
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_19.webp
 alt: 近距离拍摄
 ---
+::
 
 ::pic
 ---
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_12.webp
 alt: 现场氛围
 ---
+::
 
 ### 笑忘歌
 
@@ -137,12 +147,14 @@ alt: 现场氛围
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_13.webp
 alt: 笑忘歌
 ---
+::
 
 ::pic
 ---
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_14.webp
 alt: 笑忘歌
 ---
+::
 
 ### Encore：第一天
 
@@ -151,6 +163,7 @@ alt: 笑忘歌
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_15.webp
 alt: Encore第一天
 ---
+::
 
 ### Encore：OAOA（抒情版）
 
@@ -159,6 +172,7 @@ alt: Encore第一天
 src: https://cdn1.x-lab.top/axelblog/mayday5525hz_16.webp
 alt: Encore OAOA抒情版
 ---
+::
 
 [抖音：OAOA抒情版现场](https://www.douyin.com/video/7509536344445308169)
 
