@@ -10,81 +10,157 @@ recommend: true
 
 是的没错，抢到了**MAYDAY「5525回到那一天」杭州大莲花**的门票啦！
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_0.webp)
-
-又是**355档**+**两张票**（什么实力）
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_0.webp
+alt: MAYDAY「5525回到那一天」
+caption: 又是355档+两张票（什么实力）
+width: 70%
+---
+::
 
 ## 入场
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_2.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_2.webp
+alt: 入场
+caption: 入场入场！天气真好啊！
+---
+::
 
-入场入场！天气真好啊！
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_3.webp
+alt: 超大卜卜
+caption: 超大的卜卜也来啦
+---
+::
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_3.webp)
-
-超大的卜卜也来啦
-
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_4.webp)
-
-感觉这个工作好棒（怎么进 在线等 急）
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_4.webp
+alt: 工作人员
+caption: 感觉这个工作好棒（怎么进 在线等 急）
+---
+::
 
 ## 开场
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_5.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_5.webp
+alt: 1055区
+caption: 偷偷溜到1055区来了（遮挡不售票区），比355区强多了！有💰真好
+---
+::
 
-偷偷溜到**1055区**来了（遮挡不售票区），比355区强多了！有💰真好
-
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_6.webp)
-
-感觉近了好多
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_6.webp
+alt: 近距离视角
+caption: 感觉近了好多
+---
+::
 
 ### 有些事现在不做一辈子都不会做了+约翰蓝侬
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_7.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_7.webp
+alt: 有些事现在不做一辈子都不会做了+约翰蓝侬
+---
 
 ### 成名在望
 
 我**最最最喜欢的《成名在望》**，舞美简约而不简单，超好看！
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_8.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_8.webp
+alt: 成名在望舞美
+---
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_9.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_9.webp
+alt: 成名在望舞美
+---
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_10.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_10.webp
+alt: 成名在望舞美
+---
 
 ### 🚌 派对动物+离开地球表面
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_11.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_11.webp
+alt: 派对动物+离开地球表面
+caption: 离五位大爷最近的一次！堪比内场！（355的穷小伙能近距离😭）
+---
 
-离五位大爷最近的一次！堪比内场！（355的穷小伙能近距离😭）
+&lt;video src="https://i1.541111.xyz/2025/maydayhz1.mp4" width="100%" height="auto" controls&gt;&lt;/video&gt;
 
-<video src="https://i1.541111.xyz/2025/maydayhz1.mp4" width="100%" height="auto" controls></video>
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_18.webp
+alt: 近距离拍摄
+---
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_18.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_17.webp
+alt: 近距离拍摄
+---
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_17.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_19.webp
+alt: 近距离拍摄
+---
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_19.webp)
-
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_12.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_12.webp
+alt: 现场氛围
+---
 
 ### 笑忘歌
 
 伤心的都忘记了
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_13.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_13.webp
+alt: 笑忘歌
+---
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_14.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_14.webp
+alt: 笑忘歌
+---
 
 ### Encore：第一天
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_15.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_15.webp
+alt: Encore第一天
+---
 
 ### Encore：OAOA（抒情版）
 
-![MAYDAY「5525回到那一天」](https://cdn1.x-lab.top/axelblog/mayday5525hz_16.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/mayday5525hz_16.webp
+alt: Encore OAOA抒情版
+---
 
-[https://www.douyin.com/video/7509536344445308169](https://www.douyin.com/video/7509536344445308169)
+[抖音：OAOA抒情版现场](https://www.douyin.com/video/7509536344445308169)
 
 ## 结语
 

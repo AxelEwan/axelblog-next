@@ -5,6 +5,7 @@ description: 第一次看G.E.M.邓紫棋的演唱会，"I AM GLORIA"的舞美真
 image: https://cdn1.x-lab.top/axelblog/1721644153-gemtour9.webp
 categories: [TOUR]
 tags: [演唱会, 邓紫棋, 台州, I AM GLORIA]
+recommend: true
 ---
 
 ![邓紫棋台州站](https://cdn1.x-lab.top/axelblog/1721644149-gemtour2.webp)
