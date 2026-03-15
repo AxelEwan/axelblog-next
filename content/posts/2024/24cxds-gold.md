@@ -1,8 +1,8 @@
 ---
-title: 从省金到国金：一场持续四百天的创新马拉松
+title: 创新大赛2024：从省金到国金：一场持续四百天的创新马拉松
 date: 2024-10-15 22:00:00
-description: 从2023年11月组队到2024年10月国赛金奖，历时近一年的备赛历程，PPT推倒重来无数次，广州实地考察，最终站上中国国际大学生创新大赛最高领奖台
-image: https://cdn1.x-lab.top/axelblog/1721490127-cxds.webp
+description: 从组队到国赛金奖，历时近一年的备赛历程，PPT推倒重来无数次，实地考察，一点感悟心得
+image: https://cdn1.x-lab.top/axelblog/1721642840-24cxds-1-eisu.webp
 categories: [CAREER]
 tags: [创新创业, 国赛金奖, 互联网+, 成长, 团队]
 recommend: true
@@ -41,7 +41,7 @@ recommend: true
 banner: https://cdn1.x-lab.top/axelblog/1716913572-IMG_3373.webp 
 title: 广州一日｜Canton Tour
 description: 第一次来到广州，感受这座神奇城市的独特魅力与风土人情
-link: /2024/01/canton-tour
+link: /2024/canton-tour
 ---
 ::
 
@@ -73,7 +73,7 @@ BP（商业计划书）从第一版的20页改到最后一版的80多页，路�
 
 ![团队合影](https://cdn1.x-lab.top/axelblog/1721642840-24cxds-1-eisu.webp)
 
-![获奖瞬间](https://cdn1.x-lab.top/axelblog/1721490352-IMG_3734.webp)
+![记录](https://cdn1.x-lab.top/axelblog/1721490352-IMG_3734.webp)
 
 ## 一些真心话
 
