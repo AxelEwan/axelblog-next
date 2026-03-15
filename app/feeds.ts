@@ -8,8 +8,8 @@ import { getFavicon, getGithubAvatar, getGithubIcon, getOciqGroupAvatar, getOicq
 export default [
 	// #region Clarity
 	{
-		name: '朋友圈',
-		desc: '一些互联网好友',
+		name: '清晰体验',
+		desc: '使用 Clarity 博客主题构建的网站。',
 		// @keep-sorted { "keys": ["date"] }
 		entries: [
 			myFeed,
@@ -29,27 +29,6 @@ export default [
 		],
 	},
 	// #endregion
-			/* ========从此处新增友链======== */
-		],
-	},
-	// #endregion
-	// #region 漫游
-	{
-		name: '/',
-		desc: '/',
-		// @keep-sorted { "keys": ["date"] }
-		entries: [
-			{
-				author: '/',
-				desc: '/',
-				feed: '/',
-				link: '/',
-				icon: '/',
-				avatar: '/',
-				archs: ['WordPress', '服务器'],
-				date: '2025-12-01',
-			},
-		],
-	},
-	// #endregion
+	
+
 ] satisfies FeedGroup[]
