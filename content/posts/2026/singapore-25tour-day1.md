@@ -12,7 +12,7 @@ tags: ["新加坡", "游记", "独自旅行"]
 
 ::video-embed
 ---
-type: douyin
+type: douyin-wide
 id: '7611812340312378674'
 ---
 ::
