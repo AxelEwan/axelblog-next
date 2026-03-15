@@ -45,7 +45,7 @@ export default defineAppConfig({
 
 		stats: {
 			/** 归档页面每年标题对应的年龄 */
-			birthYear: 2003,
+			birthYear: 2004,
 			/** blog-stats widget 的预置文本 */
 			wordCount: '约10万',
 		},
@@ -58,8 +58,8 @@ export default defineAppConfig({
 		/** 侧边栏底部图标导航 */
 		iconNav: [
 			{ icon: 'ph:house-bold', text: '个人主页', url: blogConfig.author.homepage },
-			{ icon: 'ri:qq-line', text: '交流群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
-			{ icon: 'ph:github-logo-bold', text: 'GitHub: L33Z22L11', url: 'https://github.com/L33Z22L11' },
+			{ icon: 'ri:qq-line', text: '--', url: '/' },
+			{ icon: 'ph:github-logo-bold', text: 'GitHub', url: 'https://github.com/ErenAxel' },
 			{ icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
 			{ icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/' },
 		] satisfies NavItem[],
@@ -93,11 +93,11 @@ export default defineAppConfig({
 
 	/** 左侧栏顶部 Logo */
 	header: {
-		logo: 'https://weavatar.com/avatar/47c0f2e82b76d9b10eb3023df9e02e4e3fdbeaf5b74b842063f207971e7fbe7b?s=160',
+		logo: 'https://weavatar.com/avatar/07d8afb61135e89b88613c8ef646584d18932f5c5149792258f950d553c2909b?s=160',
 		/** 展示标题文本，否则展示纯 Logo */
 		showTitle: true,
 		subtitle: blogConfig.subtitle,
-		emojiTail: ['📄', '🦌', '🙌', '🐟', '🏖️'],
+		emojiTail: ['📄', '✈', '🚝', '⭐', '🌈'],
 	},
 
 	/** 友链页面 */
