@@ -21,29 +21,51 @@ tags: [信用卡, 外币卡, Mastercard, Visa, 莫奈卡, 星座卡, 攻略]
 
 一开始考虑的是弄一张虚拟卡如Wise，但是后来身份验证需要出示护照（彼时的我还没办护照），故Wise卡住了无法申请卡片。
 
-![Wise申请](https://cdn1.x-lab.top/axelblog/wise_apply1.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/wise_apply1.webp
+alt: Wise申请界面
+---
+::
 
 ### Mastercard
 
 #### 农行
 
-![农行卡](https://cdn1.x-lab.top/axelblog/bnmc1.webp)
-
-*网上偷的图*
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/bnmc1.webp
+alt: 农行信用卡
+caption: 网上偷的图
+---
+::
 
 看到农行的卡面非常好看简约，但是属于信用卡。果然由于还是学生，刚提交就被秒拒。（说得研究生往上容易点）
 
 #### 中行「莫奈卡」
 
-在小红书上刷到了**「莫奈卡」**，这是中行发行的一张外币储蓄卡，颜值很高。但坏消息是各地开卡政策不一样，可能要验资或是本地无法开卡。
+在小红书上刷到了 **「莫奈卡」**，这是中行发行的一张外币储蓄卡，颜值很高。但坏消息是各地开卡政策不一样，可能要验资或是本地无法开卡。
 
 看攻略是去上海开卡最为简单方便，**正好2024年年底，我跟着比赛团队去了上海交通大学。**
 
-[从省金到国金：一场持续四百天的创新马拉松](/2024/12/2025cxds-gj)
+::link-banner
+---
+banner: https://cdn1.x-lab.top/axelblog/1721642840-24cxds-1-eisu.webp
+title: 创新大赛2024：从省金到国国金：一场持续四百天的创新马拉松
+description: 从浙江省赛金奖到中国国际大学生创新大赛国赛金奖，历时一年多的备赛历程，记录团队从青涩到成熟的蜕变与成长
+link: /2024/24cxds-gold
+---
+::
 
 **这开卡的机会不就来了吗😁**
 
-![中行莫奈卡](https://cdn1.x-lab.top/axelblog/bcmc2.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/bcmc2.webp
+alt: 中行莫奈卡
+caption: 人生中第一张外币卡Mastercard
+---
+::
 
 最终稳稳拿下**人生中第一张外币卡Mastercard**
 
@@ -59,13 +81,24 @@ tags: [信用卡, 外币卡, Mastercard, Visa, 莫奈卡, 星座卡, 攻略]
 
 在资产验证/提供流水跟提供信用卡金卡，显然是金卡更容易一些，就开始研究哪家的信用卡金卡对大学生来说容易下。
 
-最终在**工行「星座卡」、中行Visa、农行Visa、招行「奋斗卡」**中选择了**「星座卡」**
+最终在**工行「星座卡」、中行Visa、农行Visa、招行「奋斗卡」** 中选择了 **「星座卡」**
 
 **星座卡的颜值没得黑，实物也很好看**（就是容易沾指纹）
 
-![工行星座卡](https://cdn1.x-lab.top/axelblog/icbccc1.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/icbccc1.webp
+alt: 工行星座卡正面
+---
+::
 
-![工行星座卡](https://cdn1.x-lab.top/axelblog/icbccc2-03rr.webp)
+::pic
+---
+src: https://cdn1.x-lab.top/axelblog/icbccc2-03rr.webp
+alt: 工行星座卡背面
+caption: 专属名字的银行卡
+---
+::
 
 由于是网申的卡，非预制卡，也是第一次有了**专属名字的银行卡**。
 
