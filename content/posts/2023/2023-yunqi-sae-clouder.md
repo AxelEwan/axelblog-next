@@ -1,6 +1,7 @@
 ---
 title: 2023云栖大会：SAE黑客松挑战赛 + Clouder认证
 date: 2023-11-03 12:00:00
+description: 首次参加阿里云SAE黑客松挑战赛，斩获9份Apsara Clouder认证证书
 image: https://cdn1.x-lab.top/axelblog/1716825618-SAE1.webp
 categories: [TECH]
 tags: [阿里云, 云栖大会, SAE, 黑客松, 认证]
