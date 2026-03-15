@@ -1,13 +1,13 @@
 import type { FeedEntry } from './app/types/feed'
 
 const basicConfig = {
-	title: 'AxelBlog',
+	title: 'Axel’s Blog',
 	subtitle: 'Axel',
 	// 长 description 利好于 SEO
 	description: 'Axel',
 	author: {
 		name: 'Axel',
-		avatar: 'https://www.zhilu.site/api/avatar.png',
+		avatar: 'https://cdn1.x-lab.top/axelblog/web-icon-blog.webp',
 		email: 'hi@axel.xin',
 		homepage: 'https://blog.axelx.cn/',
 	},
@@ -16,7 +16,7 @@ const basicConfig = {
 		name: '署名-非商业性使用-相同方式共享 4.0 国际',
 		url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans',
 	},
-	favicon: 'https://www.zhilu.site/api/icon.png',
+	favicon: 'https://cdn1.x-lab.top/axelblog/web-icon-blog.webp',
 	language: 'zh-CN',
 	timeEstablished: '2023-11-10',
 	timeZone: 'Asia/Shanghai',
@@ -75,7 +75,7 @@ const blogConfig = {
 	/** 向 <head> 中添加脚本 */
 	scripts: [
 		// 自己部署的 Umami 统计服务
-		{ 'src': 'https://-', 'data-website-id': '-', 'defer': true },
+		{ 'src': 'https://analysis.x-lab.top/script.js', 'data-website-id': '97f81d6e-e39c-4dd1-b5e1-30c374c575f2', 'defer': true },
 		// 自己网站的 Cloudflare Insights 统计服务
 		{ 'src': 'https://-', 'data-cf-beacon': '{"token": "-"}', 'defer': true },
 		// Twikoo 评论系统
