@@ -1,7 +1,7 @@
 import type { FeedEntry } from './app/types/feed'
 
 const basicConfig = {
-	title: "Axel's Blog",
+	title: "Axel's BLOG",
 	subtitle: 'Axel的个人小站',
 	// 长 description 利好于 SEO
 	description: 'Axel的个人博客，分享Web安全技术、学习笔记、日常记录与生活感悟。无限进步，随缘更新。',
@@ -92,7 +92,7 @@ const blogConfig = {
 /** 用于生成 OPML 和友链页面配置 */
 export const myFeed: FeedEntry = {
 	author: blogConfig.author.name,
-	sitenick: '摸鱼处',
+	sitenick: 'b',
 	title: blogConfig.title,
 	desc: blogConfig.subtitle || blogConfig.description,
 	link: blogConfig.url,
