@@ -2,9 +2,9 @@ import type { FeedEntry } from './app/types/feed'
 
 const basicConfig = {
 	title: 'Axel’s Blog',
-	subtitle: 'Axel',
+	subtitle: 'Axel的个人小站',
 	// 长 description 利好于 SEO
-	description: 'Axel',
+	description: 'Axel的个人博客，分享Web安全技术、学习笔记、日常记录与生活感悟。无限进步，随缘更新。',
 	author: {
 		name: 'Axel',
 		avatar: 'https://cdn1.x-lab.top/axelblog/web-icon-blog.webp',
