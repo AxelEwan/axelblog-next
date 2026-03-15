@@ -51,7 +51,7 @@ caption: 网上偷的图
 ::link-banner
 ---
 banner: https://cdn1.x-lab.top/axelblog/1721642840-24cxds-1-eisu.webp
-title: 创新大赛2024：从省金到国国金：一场持续四百天的创新马拉松
+title: 创新大赛2024：从省金到国国金，一场持续四百天的创新马拉松
 description: 从浙江省赛金奖到中国国际大学生创新大赛国赛金奖，历时一年多的备赛历程，记录团队从青涩到成熟的蜕变与成长
 link: /2024/24cxds-gold
 ---
@@ -71,7 +71,7 @@ caption: 人生中第一张外币卡Mastercard
 
 #### 汇丰（香港）「蓝狮子」
 
-得去香港境内线上申请，看我什么时候能去香港，再开这张**"纯血"Mastercard**吧！
+得去香港境内线上申请，看我什么时候能去香港，再开这张 **"纯血"Mastercard** 吧！
 
 ### Visa
 
