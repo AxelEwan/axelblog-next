@@ -58,7 +58,7 @@ export default defineAppConfig({
 		/** 侧边栏底部图标导航 */
 		iconNav: [
 			{ icon: 'ph:house-bold', text: '个人主页', url: blogConfig.author.homepage },
-			{ icon: 'ph:instagram-logo-bold', text: 'iG@axelewan_', url: 'https://www.instagram.com/axelewan_' },
+			{ icon: 'ph:instagram-logo-bold', text: 'IG@axelewan_', url: 'https://www.instagram.com/axelewan_' },
 			{ icon: 'ph:github-logo-bold', text: 'GitHub: AxelEwan', url: 'https://github.com/AxelEwan' },
 			{ icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
 			{ icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/' },
@@ -76,7 +76,7 @@ export default defineAppConfig({
 				title: '社交',
 				items: [
 					{ icon: 'ph:github-logo-bold', text: 'AxelEwan', url: 'https://github.com/AxelEwan' },
-					{ icon: 'ph:instagram-logo-bold', text: '@axelewan_', url: 'https://www.instagram.com/axelewan_' },
+					{ icon: 'ph:instagram-logo-bold', text: 'axelewan_', url: 'https://www.instagram.com/axelewan_' },
 					{ icon: 'ph:envelope-simple-bold', text: blogConfig.author.email, url: `mailto:${blogConfig.author.email}` },
 				],
 			},
@@ -92,7 +92,7 @@ export default defineAppConfig({
 
 	/** 左侧栏顶部 Logo */
 	header: {
-		logo: 'https://weavatar.com/avatar/47c0f2e82b76d9b10eb3023df9e02e4e3fdbeaf5b74b842063f207971e7fbe7b?s=160',
+		logo: 'https://weavatar.com/avatar/07d8afb61135e89b88613c8ef646584d18932f5c5149792258f950d553c2909b?s=160',
 		/** 展示标题文本，否则展示纯 Logo */
 		showTitle: true,
 		subtitle: blogConfig.subtitle,
@@ -115,7 +115,7 @@ export default defineAppConfig({
 				{ icon: 'ph:files-bold', text: '文章', url: '/' },
 				{ icon: 'ph:link-bold', text: '友链', url: '/link' },
 				{ icon: 'ph:archive-bold', text: '归档', url: '/archive' },
-				{ icon: 'ph:instagram-logo-bold', text: 'IG', url: 'https://www.instagram.com/axelewan_' },
+				{ icon: 'ph:instagram-logo-bold', text: 'Instagram', url: 'https://www.instagram.com/axelewan_' },
 			],
 		},
 	] satisfies Nav,
