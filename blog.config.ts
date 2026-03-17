@@ -8,7 +8,7 @@ const basicConfig = {
 	author: {
 		name: 'Axel',
 		avatar: 'https://cdn1.x-lab.top/axelblog/web-icon-blog.webp',
-		email: 'hi@axel.xin',
+		email: 'hi@axelx.cn',
 		homepage: 'https://blog.axelx.cn/',
 	},
 	copyright: {
@@ -33,16 +33,14 @@ const blogConfig = {
 	article: {
 		categories: {
 			[basicConfig.defaultCategory]: { icon: 'ph:folder-dotted-bold' },
-			/** 实践可复用操作经验：工具/系统/部署/排障 */
-			技术: { icon: 'ph:mouse-bold', color: '#33aaff' },
-			/** 编程：代码实现/工程实践/开发方法 */
-			开发: { icon: 'ph:code-bold', color: '#7777ff' },
-			/** 安全：漏洞/CTF/恶意软件/安全事件分析 */
-			安全: { icon: 'ph:bug-beetle-bold', color: '#ff7733' },
+			/** 技术：工具/系统/部署/排障 */
+			TECH: { icon: 'ph:star-four-bold', color: '#33aaff' },
 			/** 思考：观点讨论/复盘反思/行业或产品观察 */
-			杂谈: { icon: 'ph:chat-bold', color: '#33bbaa' },
+			杂谈思考: { icon: 'ph:quotes-bold', color: '#0891b2' },
 			/** 记录叙事：个人经历/校园家庭/日常片段 */
-			生活: { icon: 'ph:shooting-star-bold', color: '#ff7777' },
+			LIFE: { icon: 'ph:cards-three-bold', color: '#eab308' },
+			/** TOUR：旅行/活动 */
+			TOUR: { icon: 'ph:airplane-takeoff-bold', color: '#ff7777' },
 		},
 		defaultCategoryIcon: 'ph:folder-bold',
 		/** 文章版式，首个为默认版式 */
