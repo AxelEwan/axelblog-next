@@ -4,10 +4,10 @@ const basicConfig = {
 	title: "Axel's BLOG",
 	subtitle: 'Axel的个人小站',
 	// 长 description 利好于 SEO
-	description: 'Axel的个人博客，分享Web安全技术、学习笔记、日常记录与生活感悟。无限进步，随缘更新。',
+	description: 'Axel的个人博客，分享Web技术、学习笔记、日常记录与生活感悟。无限进步，随缘更新。',
 	author: {
 		name: 'Axel',
-		avatar: 'https://cdn1.x-lab.top/axelblog/web-icon-blog.webp',
+		avatar: 'https://weavatar.com/avatar/07d8afb61135e89b88613c8ef646584d18932f5c5149792258f950d553c2909b',
 		email: 'hi@axelx.cn',
 		homepage: 'https://blog.axelx.cn/',
 	},
@@ -16,7 +16,7 @@ const basicConfig = {
 		name: '署名-非商业性使用-相同方式共享 4.0 国际',
 		url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans',
 	},
-	favicon: 'https://cdn1.x-lab.top/axelblog/web-icon-blog.webp',
+	favicon: '/public/assets/web-icon-blog.webp',
 	language: 'zh-CN',
 	timeEstablished: '2023-11-10',
 	timeZone: 'Asia/Shanghai',
@@ -65,7 +65,7 @@ const blogConfig = {
 	/** 博客 Atom 订阅源 */
 	feed: {
 		/** 订阅源最大文章数量 */
-		limit: 50,
+		limit: 12,
 		/** 订阅源是否启用XSLT样式 */
 		enableStyle: true,
 	},
@@ -90,7 +90,7 @@ const blogConfig = {
 /** 用于生成 OPML 和友链页面配置 */
 export const myFeed: FeedEntry = {
 	author: blogConfig.author.name,
-	sitenick: 'b',
+	sitenick: '一万博客',
 	title: blogConfig.title,
 	desc: blogConfig.subtitle || blogConfig.description,
 	link: blogConfig.url,
@@ -99,7 +99,7 @@ export const myFeed: FeedEntry = {
 	avatar: blogConfig.author.avatar,
 	archs: ['Nuxt', 'Vercel'],
 	date: blogConfig.timeEstablished,
-	comment: '这是我自己',
+	comment: "It's me,Hi!",
 }
 
 export default blogConfig
