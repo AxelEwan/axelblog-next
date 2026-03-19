@@ -1,5 +1,5 @@
 import type { Nav, NavItem } from '~/types/nav'
-import { pascal } from 'radash'
+import { pascalCase } from 'es-toolkit/string'
 import { Temporal } from 'temporal-polyfill'
 import blogConfig from '~~/blog.config'
 import { name, version } from '~~/package.json'
@@ -83,7 +83,7 @@ export default defineAppConfig({
 			{
 				title: '信息',
 				items: [
-					{ icon: 'simple-icons:nuxt', text: `${pascal(name)} ${version}`, url: 'https://github.com/L33Z22L11/blog-v3' },
+					{ icon: 'simple-icons:nuxt', text: `${pascalCase(name)} ${version}`, url: 'https://github.com/L33Z22L11/blog-v3' },
 					{ icon: 'ph:certificate-bold', text: 'XICP备2026号', url: 'https://beian.miit.gov.cn/' },
 				],
 			},
