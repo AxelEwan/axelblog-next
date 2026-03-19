@@ -2,17 +2,15 @@
 <BlogWidget
 	card
 	dim
-	title="博客/技术社区"
-	bg-img="https://p.qlogo.cn/gh/169994096/169994096/100/"
+	title="赛博大好人"
+	bg-img="https://cf-assets.www.cloudflare.com/slt3lc6tev37/2I3y49Uz9Y61lBS0kIPZu6/db6df1e6f99a8659267c442b75a0dff9/image.png"
 	bg-right
 >
 	<div class="title text-creative">
-		纸网接入点
+		CloudFlare
 	</div>
 
-	<Tip copy icon :tip-options="{ placement: 'left' }">
-		<Icon name="ri:qq-fill" />169994096
-	</Tip>
+	提供全球CDN/存储服务
 </BlogWidget>
 </template>
 

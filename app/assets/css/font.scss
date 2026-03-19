@@ -1,7 +1,26 @@
+/* 快看世界体 */
+@font-face {
+    font-family: "KuaiKanShiJie";
+    src: url("/fonts/kuaikanshijieti.woff2") format("woff2");
+    font-weight: normal; 
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 欣意冠黑体 */
+@font-face {
+    font-family: "XinYiGuanHei";
+    src: url("/fonts/XinYiGuanHeiTi-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 :root {
 	--font-basic: "InterVariable", "Noto Sans SC-Local", "sans-serif", "PingFang SC", "Noto Sans SC", system-ui, sans-serif;
 	--font-serif: "Noto Serif SC-Local", "Noto Serif SC", serif;
-	--font-creative: "InterVariable", "Noto Sans SC-Local", "Noto Sans SC", system-ui, sans-serif;
+	--font-creative: "KuaiKanShiJie", "InterVariable", "Noto Sans SC", sans-serif;
 	--font-stroke-free: "Inter", "Lantinghei SC", "Microsoft YaHei", "MiSans", system-ui, sans-serif;
 	--font-monospace: "JetBrains Mono", "monospace", "Cascadia Code", "Consolas", "Monaco", var(--font-basic), monospace;
 
@@ -9,6 +28,7 @@
 		--font-basic: "InterVariable", system-ui, sans-serif;
 	}
 }
+
 
 /* autoprefixer: ignore next */
 // 仅在 Chrome 130+ 启用本地可变字体
