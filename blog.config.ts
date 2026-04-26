@@ -73,7 +73,7 @@ const blogConfig = {
 	/** 向 <head> 中添加脚本 */
 	scripts: [
 		// 自己部署的 Umami 统计服务
-		{ 'src': 'https://analysis.x-lab.top/script.js', 'data-website-id': '97f81d6e-e39c-4dd1-b5e1-30c374c575f2', 'defer': true },
+		{ 'src': 'https://analysis.x-lab.top/script.js', 'data-website-id': 'e8abb20d-3de8-4276-bd02-ff58d0ff89f4', 'defer': true },
 		// 自己网站的 Cloudflare Insights 统计服务
 		{ 'src': 'https://-', 'data-cf-beacon': '{"token": "-"}', 'defer': true },
 		// Twikoo 评论系统
