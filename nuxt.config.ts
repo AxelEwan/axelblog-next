@@ -92,6 +92,8 @@ export default defineNuxtConfig({
 	},
 
 	runtimeConfig: {
+		todoxSyncBase: env.TODOX_SYNC_BASE || 'https://todo.axelx.cn',
+		todoxSyncKey: env.TODOX_SYNC_FEED_KEY || '',
 		// @keep-sorted
 		public: {
 			arch,
