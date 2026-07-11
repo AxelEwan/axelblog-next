@@ -13,21 +13,19 @@ export default [
 		entries: [
 			myFeed,
 			{
-				author: 'Pending',
-				sitenick: 'Pending',
-				title: 'Pending',
-				desc: '正在筹备中……',
-				link: '/',
-				feed: '/',
-				icon: 'https://weavatar.com/avatar/07d8afb61135e89b88613c8ef646584d18932f5c5149792258f950d553c2909b',
+				author: 'Axel',
+				sitenick: 'ToDo!',
+				title: 'ToDo!',
+				desc: 'Axel 的待办事项与计划记录。',
+				link: 'https://todo.axelx.cn/',
+				feed: '',
+				icon: 'https://todo.axelx.cn/favicon.ico',
 				avatar: 'https://weavatar.com/avatar/07d8afb61135e89b88613c8ef646584d18932f5c5149792258f950d553c2909b',
-				archs: ['Nuxt', 'EdgeOne'],
-				date: '2026-03-24',
-				comment: '这里还没开发完……',
+				archs: ['ToDo'],
+				date: '2026-07-11',
+				comment: '把想做的事逐步变成已完成。',
 			},
 		],
 	},
 	// #endregion
-	
-
 ] satisfies FeedGroup[]
