@@ -114,7 +114,7 @@ export default defineAppConfig({
 			items: [
 				{ icon: 'tabler:files', text: '文章', url: '/' },
 				{ icon: 'tabler:link', text: '友链', url: '/link' },
-				{ icon: 'tabler:sparkles', text: '瞬间', url: '/moments' },
+				{ icon: 'tabler:sparkles', text: '动态', url: '/moments' },
 				{ icon: 'tabler:archive', text: '归档', url: '/archive' },
 				{ icon: 'tabler:brand-instagram', text: 'Instagram', url: 'https://www.instagram.com/axelewan_' },
 			],

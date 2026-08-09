@@ -12,17 +12,27 @@ const author = computed(() => {
 	const configuredAuthor = appConfig.author as typeof appConfig.author & { nickname?: string, username?: string }
 	return {
 		name: configuredAuthor.name || 'Axel',
-		username: configuredAuthor.username || configuredAuthor.nickname || '@todo',
+		username: configuredAuthor.username || configuredAuthor.nickname || '@axel',
 		avatar: configuredAuthor.avatar || fallbackAvatar,
-		homepage: configuredAuthor.homepage || 'https://todo.axelx.cn/',
 	}
 })
 
-const postUrl = computed(() => props.moment.url || 'https://todo.axelx.cn/')
+const postUrl = computed(() => {
+	try {
+		return new URL(props.moment.url || '/', 'https://todo.axelx.cn/').toString()
+	}
+	catch {
+		return 'https://todo.axelx.cn/'
+	}
+})
 const title = computed(() => props.moment.title?.trim() || '无标题记录')
-const excerpt = computed(() => truncateText(props.moment.text || '', 180))
-const firstImage = computed(() => extractFirstImage(props.moment.html || ''))
+const excerpt = computed(() => truncateText(stripImageMarkup(props.moment.text || ''), 180))
+const images = computed(() => extractImages(props.moment.html || '', props.moment.text || ''))
 const relativeTime = computed(() => formatRelativeTime(props.moment.created))
+const createdDateTime = computed(() => {
+	const date = new Date(props.moment.created * 1000)
+	return Number.isNaN(date.getTime()) ? undefined : date.toISOString()
+})
 
 function truncateText(text: string, max = 180) {
 	const normalized = text.trim()
@@ -31,9 +41,42 @@ function truncateText(text: string, max = 180) {
 	return `${normalized.slice(0, max).trimEnd()}…`
 }
 
-function extractFirstImage(html: string) {
-	const match = html.match(/<img[^>]+src=["']([^"']+)["'][^>]*>/i)
-	return match?.[1] || ''
+function stripImageMarkup(text: string) {
+	return text
+		.replace(/!\[[^\]]*\]\([^\s)]+(?:\s+["'][^"']*["'])?\)/g, '')
+		.replace(/!\[[^\]]*\]\[[^\]]+\]/g, '')
+		.replace(/\[[^\]]+\]:\s*https?:\/\/\S+/g, '')
+		.replace(/\n{3,}/g, '\n\n')
+		.trim()
+}
+
+function extractImages(html: string, text: string) {
+	const sources: string[] = []
+	const imageExtensions = String.raw`(?:avif|gif|jpe?g|png|svg|webp)`
+	const htmlImagePattern = /<img[^>]+src=["']([^"']+)["'][^>]*>/gi
+	const imageUrlPattern = new RegExp(String.raw`https?:\/\/[^\s<>"'\])]+?\.${imageExtensions}(?:\?[^\s<>"'\])]+)?`, 'gi')
+
+	for (const match of html.matchAll(htmlImagePattern))
+		sources.push(match[1])
+	for (const match of `${html}\n${text}`.matchAll(imageUrlPattern))
+		sources.push(match[0])
+
+	return [...new Set(sources.map(normalizeImageUrl).filter(Boolean))].slice(0, 9)
+}
+
+function normalizeImageUrl(value: string) {
+	const decoded = value.replaceAll('&amp;', '&').replace(/[\]}》〉），。；：”’]+$/g, '')
+	try {
+		const url = new URL(decoded, 'https://todo.axelx.cn/')
+		return ['http:', 'https:'].includes(url.protocol) ? url.toString() : ''
+	}
+	catch {
+		return ''
+	}
+}
+
+function openPost() {
+	window.open(postUrl.value, '_blank', 'noopener,noreferrer')
 }
 
 function formatRelativeTime(timestamp: number): string {
@@ -70,8 +113,15 @@ function formatRelativeTime(timestamp: number): string {
 </script>
 
 <template>
-<article class="moment-card">
-	<a class="moment-link" :href="postUrl" target="_blank" rel="noopener noreferrer" :aria-label="`查看瞬间：${title}`">
+<article
+	class="moment-card"
+	role="link"
+	tabindex="0"
+	:aria-label="`查看动态：${title}`"
+	@click="openPost"
+	@keydown.enter="openPost"
+>
+	<div class="moment-link">
 		<header class="moment-header">
 			<img class="moment-avatar" :src="author.avatar" :alt="author.name" loading="lazy">
 			<div class="moment-author">
@@ -82,7 +132,7 @@ function formatRelativeTime(timestamp: number): string {
 				<div class="moment-meta">
 					<span>{{ author.username }}</span>
 					<span aria-hidden="true">·</span>
-					<time :datetime="new Date(moment.created * 1000).toISOString()">{{ relativeTime }}</time>
+					<time :datetime="createdDateTime">{{ relativeTime }}</time>
 				</div>
 			</div>
 			<span v-if="moment.category" class="moment-category">{{ moment.category }}</span>
@@ -90,8 +140,18 @@ function formatRelativeTime(timestamp: number): string {
 
 		<div class="moment-body">
 			<h2>{{ title }}</h2>
-			<p v-if="excerpt" class="moment-excerpt">{{ excerpt }}</p>
-			<img v-if="firstImage" class="moment-image" :src="firstImage" alt="瞬间配图" loading="lazy" referrerpolicy="no-referrer">
+			<p v-if="excerpt" class="moment-excerpt">
+				{{ excerpt }}
+			</p>
+			<div v-if="images.length" class="moment-images" :class="`count-${images.length}`" @click.stop>
+				<MomentImage
+					v-for="image, index in images"
+					:key="image"
+					class="moment-image"
+					:src="image"
+					:alt="`动态配图 ${index + 1}`"
+				/>
+			</div>
 		</div>
 
 		<footer class="moment-actions" aria-label="互动数据">
@@ -109,7 +169,7 @@ function formatRelativeTime(timestamp: number): string {
 			</span>
 			<span class="read-more">查看原文</span>
 		</footer>
-	</a>
+	</div>
 </article>
 </template>
 
@@ -119,6 +179,7 @@ function formatRelativeTime(timestamp: number): string {
 	border-radius: 1rem;
 	background: var(--c-bg-soft);
 	transition: transform 0.2s, border-color 0.2s, background-color 0.2s;
+	cursor: pointer;
 
 	&:hover {
 		border-color: color-mix(in srgb, var(--c-text-3), var(--c-border));
@@ -211,15 +272,42 @@ function formatRelativeTime(timestamp: number): string {
 	color: var(--c-text-2);
 }
 
-.moment-image {
-	display: block;
-	width: 100%;
-	max-height: 28rem;
+.moment-images {
+	display: grid;
+	grid-auto-rows: minmax(7rem, 12rem);
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.25rem;
+	overflow: hidden;
 	margin-top: 0.9rem;
 	border: 1px solid var(--c-border);
 	border-radius: 0.85rem;
 	background: var(--c-border);
-	object-fit: cover;
+	cursor: default;
+
+	&.count-1 {
+		grid-auto-rows: minmax(14rem, 28rem);
+		grid-template-columns: 1fr;
+	}
+
+	&.count-2,
+	&.count-4 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	&.count-2 {
+		grid-auto-rows: minmax(12rem, 22rem);
+	}
+
+	&.count-3 .moment-image:first-child,
+	&.count-5 .moment-image:first-child {
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+
+	.moment-image {
+		width: 100%;
+		height: 100%;
+	}
 }
 
 .moment-actions {
